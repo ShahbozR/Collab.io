@@ -1,0 +1,568 @@
+header {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    z-index: 5;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+header p {
+    display: inline-block;
+}
+
+.korzina {
+    display: inline-block;
+    top: 100px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    width: fit-content;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 9%;
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.bhead:hover {
+    color: black;
+    background-color: #e0e1e4;
+}
+
+.headb:hover {
+    background-color: #3F53D8;
+    color: white;
+}
+
+.правый {
+    position: relative;
+    width: 700px;
+    height: 800px;
+    left: 60%;
+    margin-top: 60px;
+}
+
+.manager {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: 2;
+}
+
+.redh {
+    position: absolute;
+    right: 0px;
+}
+
+.blueh {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+.purple {
+    position: absolute;
+    right: 0px;
+    top: 180px;
+    z-index: 2;
+}
+
+.hdneon {
+    position: absolute;
+    left: 80px;
+    top: 90px;
+}
+
+.левый {
+    position: relative;
+    bottom: 750px;
+    width: 670px;
+    margin-left: 40px;
+}
+
+.левый .maintr {
+    font-size: 100px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.левый button {
+    background-color: #3F53D8;
+    color: white;
+    border-radius: 10%;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    margin-bottom: 40px;
+}
+
+.bl:hover {
+    background-color: #16289c;
+    color: azure;
+}
+
+.левый .mainst {
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.morelogo p {
+    top: 900px;
+    position: absolute;
+    right: 39%;
+    font-size: 20px;
+}
+
+.morelogo img {
+    top: 950px;
+    position: absolute;
+    left: 20%;
+}
+
+.centre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    bottom: 300px;
+}
+
+.centref {
+    position: absolute;
+    width: 605.25px;
+    height: 79px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.centredown {
+    position: absolute;
+    width: 500px;
+    height: 79px;
+    font-size: 19px;
+    font-weight: lighter;
+    display: block;
+    justify-content: center;
+    left: 9%;
+}
+
+.down {
+    margin-top: 200px;
+}
+
+.moredown {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    z-index: -4;
+    bottom: 100px;
+    margin-left: 40px;
+}
+
+.back {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    z-index: -3;
+    width: 500px;
+}
+
+.add {
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+    width: 350px;
+}
+
+.cactus {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 500px;
+}
+
+.moretext {
+    bottom: 760px;
+    left: 1150px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.moretext .onem {
+    font-size: 60px;
+}
+
+.moretext .twom {
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    top: 140px;
+}
+
+.moretext .treem {
+    font-size: 15px;
+    font-weight: bolder;
+    text-indent: 70px;
+    margin-top: 100px;
+}
+
+.moretext .fourm {
+    font-size: 15px;
+    font-weight: bolder;
+    text-indent: 70px;
+}
+
+.moretext button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #5d6fe6;
+    margin-left: 30px;
+}
+
+.moretext a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.fivem:hover {
+    background-color: #3f56ec;
+    color: white;
+}
+
+.start {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 60px;
+    height: 800px;
+    z-index: -4;
+    width: 800px;
+}
+
+.startred {
+    position: absolute;
+    left: 650px;
+    top: 80px;
+}
+
+.startwhite {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    width: 300px;
+}
+
+.startbig {
+    position: absolute;
+    z-index: -3;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+}
+
+.starttext {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 800px;
+    left: 1200px;
+    bottom: 780px;
+}
+
+.starttext .onet {
+    font-size: 50px;
+    text-align: start;
+    bottom: 0px;
+}
+
+.starttext .twot {
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.inline {
+    background-color: rgb(124, 122, 122);
+    width: 500px;
+    height: 5px;
+    position: absolute;
+    left: 8%;
+    box-shadow: 0px 5px 8px rgb(161, 159, 159);
+    top: 450px;
+}
+
+.starttext img {
+    width: 500px;
+    top: 450px;
+    position: absolute;
+    left: 8%;
+}
+
+.startmore {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    bottom: 500px;
+}
+
+.mainmore {
+    font-size: 50px;
+}
+
+.mainmoref {
+    left: 35%;
+    top: 960px;
+    position: absolute;
+    width: 700px;
+}
+
+.one {
+    font-size: 15px;
+}
+
+.twox {
+    font-size: 35px;
+    margin-top: 60px
+}
+
+.twop {
+    width: 330px;
+}
+
+.end {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: -7;
+}
+
+.reply {
+    position: relative;
+    width: 850px;
+    height: 350px;
+    margin-left: 450px;
+    z-index: -6;
+    top: 120px;
+}
+
+.rep {
+    left: 0px;
+    top: 20px;
+    position: absolute;
+}
+
+.stars {
+    top: 0px;
+    left: 90px;
+    position: absolute;
+}
+
+.replyt {
+    position: absolute;
+    font-size: 30px;
+    width: 600px;
+    top: 30px;
+    left: 100px;
+}
+
+.human {
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    left: 100px;
+}
+
+.repw {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+.ava {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.q {
+    position: absolute;
+    right: 150px;
+    top: 300px;
+}
+
+.w {
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+
+.endd {
+    font-size: 45px;
+    left: 23%;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+}
+
+.backk {
+    z-index: -9;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.footerimg {
+    position: absolute;
+}
+
+.p {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    color: white;
+    font-size: 60px;
+    left: 600px;
+    margin-top: 200px;
+}
+
+footer button {
+    border-radius: 15%;
+    background-color: #3F53D8;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 740px;
+    margin-top: 530px;
+}
+
+.buttomm:hover {
+    background-color: #16289c;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.right {
+    left: 1576px;
+    position: absolute;
+    top: 447px;
+}
+
+.endf {
+    position: absolute;
+    line-height: 40px;
+}
+
+.a a:hover {
+    text-decoration: underline;
+}
+
+.a {
+    position: absolute;
+    left: 800px;
+    font-size: 25px;
+    width: 140px;
+}
+
+.a a {
+    text-decoration: none;
+    color: black;
+}
+
+.s a:hover {
+    text-decoration: underline;
+}
+
+.s {
+    position: absolute;
+    left: 1100px;
+    font-size: 25px;
+    width: 120px;
+}
+
+.s a {
+    text-decoration: none;
+    color: black;
+}
+
+.d a:hover {
+    text-decoration: underline;
+}
+
+.dimg img:hover {
+    width: 25px;
+}
+
+.d p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.d a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.dimg a {
+    margin-left: 30px;
+    width: 60px;
+}
+
+.d {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 1500px;
+}
+
+.r {
+    position: absolute;
+    left: 1600px;
+    width: 200px;
+    margin-top: 170px;
+}
+
+.l {
+    position: absolute;
+    left: 70px;
+    top: 30px;
+    width: 300px;
+    margin-top: 500px;
+}
+
+.lodg {
+    margin-left: 70px;
+}
